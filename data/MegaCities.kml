@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MegaCities" id="MegaCities">
+	<SimpleField name="field_1" type="string"></SimpleField>
+	<SimpleField name="field_2" type="float"></SimpleField>
+	<SimpleField name="field_3" type="float"></SimpleField>
+	<SimpleField name="field_4" type="float"></SimpleField>
+	<SimpleField name="field_5" type="float"></SimpleField>
+	<SimpleField name="field_6" type="float"></SimpleField>
+	<SimpleField name="field_7" type="float"></SimpleField>
+	<SimpleField name="field_8" type="float"></SimpleField>
+	<SimpleField name="field_9" type="float"></SimpleField>
+	<SimpleField name="field_10" type="float"></SimpleField>
+</Schema>
+<Folder><name>MegaCities</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Tokyo</SimpleData>
+		<SimpleData name="field_2">30.3</SimpleData>
+		<SimpleData name="field_3">32.53</SimpleData>
+		<SimpleData name="field_4">33.59</SimpleData>
+		<SimpleData name="field_5">34.45</SimpleData>
+		<SimpleData name="field_6">35.62</SimpleData>
+		<SimpleData name="field_7">36.83</SimpleData>
+		<SimpleData name="field_8">38</SimpleData>
+		<SimpleData name="field_9">35.6832085</SimpleData>
+		<SimpleData name="field_10">139.8089447</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>35.6832085,139.808944700000012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Delhi</SimpleData>
+		<SimpleData name="field_2">7.33</SimpleData>
+		<SimpleData name="field_3">9.73</SimpleData>
+		<SimpleData name="field_4">12.41</SimpleData>
+		<SimpleData name="field_5">15.73</SimpleData>
+		<SimpleData name="field_6">18.67</SimpleData>
+		<SimpleData name="field_7">21.94</SimpleData>
+		<SimpleData name="field_8">25.7</SimpleData>
+		<SimpleData name="field_9">28.6449795</SimpleData>
+		<SimpleData name="field_10">77.2164307</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.6449795,77.2164307</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Shanghai</SimpleData>
+		<SimpleData name="field_2">6.85</SimpleData>
+		<SimpleData name="field_3">7.82</SimpleData>
+		<SimpleData name="field_4">10.45</SimpleData>
+		<SimpleData name="field_5">13.96</SimpleData>
+		<SimpleData name="field_6">16.76</SimpleData>
+		<SimpleData name="field_7">19.98</SimpleData>
+		<SimpleData name="field_8">23.74</SimpleData>
+		<SimpleData name="field_9">31.2241459</SimpleData>
+		<SimpleData name="field_10">121.5161362</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>31.2241459,121.5161362</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Ṣo Paulo</SimpleData>
+		<SimpleData name="field_2">13.39</SimpleData>
+		<SimpleData name="field_3">14.78</SimpleData>
+		<SimpleData name="field_4">15.91</SimpleData>
+		<SimpleData name="field_5">17.01</SimpleData>
+		<SimpleData name="field_6">18.29</SimpleData>
+		<SimpleData name="field_7">19.66</SimpleData>
+		<SimpleData name="field_8">21.07</SimpleData>
+		<SimpleData name="field_9">-23.5628395</SimpleData>
+		<SimpleData name="field_10">-46.6546402</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-23.5628395,-46.6546402</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Mumbai (Bombay)</SimpleData>
+		<SimpleData name="field_2">10.39</SimpleData>
+		<SimpleData name="field_3">12.44</SimpleData>
+		<SimpleData name="field_4">14.31</SimpleData>
+		<SimpleData name="field_5">16.37</SimpleData>
+		<SimpleData name="field_6">17.89</SimpleData>
+		<SimpleData name="field_7">19.42</SimpleData>
+		<SimpleData name="field_8">21.04</SimpleData>
+		<SimpleData name="field_9">18.93013</SimpleData>
+		<SimpleData name="field_10">72.8300934</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>18.93013,72.8300934</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Ciudad de M̩xico (Mexico City)</SimpleData>
+		<SimpleData name="field_2">14.28</SimpleData>
+		<SimpleData name="field_3">15.64</SimpleData>
+		<SimpleData name="field_4">17.02</SimpleData>
+		<SimpleData name="field_5">18.46</SimpleData>
+		<SimpleData name="field_6">19.28</SimpleData>
+		<SimpleData name="field_7">20.13</SimpleData>
+		<SimpleData name="field_8">21</SimpleData>
+		<SimpleData name="field_9">19.4319496</SimpleData>
+		<SimpleData name="field_10">-99.1331329</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>19.4319496,-99.1331329</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Beijing</SimpleData>
+		<SimpleData name="field_2">6.02</SimpleData>
+		<SimpleData name="field_3">6.79</SimpleData>
+		<SimpleData name="field_4">8.31</SimpleData>
+		<SimpleData name="field_5">10.16</SimpleData>
+		<SimpleData name="field_6">12.81</SimpleData>
+		<SimpleData name="field_7">16.19</SimpleData>
+		<SimpleData name="field_8">20.38</SimpleData>
+		<SimpleData name="field_9">39.9065704</SimpleData>
+		<SimpleData name="field_10">116.3876495</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>39.9065704,116.3876495</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Kinki M.M.A. (Osaka)</SimpleData>
+		<SimpleData name="field_2">17.58</SimpleData>
+		<SimpleData name="field_3">18.39</SimpleData>
+		<SimpleData name="field_4">18.94</SimpleData>
+		<SimpleData name="field_5">18.66</SimpleData>
+		<SimpleData name="field_6">18.76</SimpleData>
+		<SimpleData name="field_7">19.49</SimpleData>
+		<SimpleData name="field_8">20.24</SimpleData>
+		<SimpleData name="field_9">34.6939</SimpleData>
+		<SimpleData name="field_10">135.5022</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>34.6939,135.5022</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Al-Qahirah (Cairo)</SimpleData>
+		<SimpleData name="field_2">8.33</SimpleData>
+		<SimpleData name="field_3">9.89</SimpleData>
+		<SimpleData name="field_4">11.96</SimpleData>
+		<SimpleData name="field_5">13.63</SimpleData>
+		<SimpleData name="field_6">15.17</SimpleData>
+		<SimpleData name="field_7">16.9</SimpleData>
+		<SimpleData name="field_8">18.77</SimpleData>
+		<SimpleData name="field_9">30.0454197</SimpleData>
+		<SimpleData name="field_10">31.2421093</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>30.0454197,31.2421093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">New York-Newark</SimpleData>
+		<SimpleData name="field_2">15.83</SimpleData>
+		<SimpleData name="field_3">16.09</SimpleData>
+		<SimpleData name="field_4">16.94</SimpleData>
+		<SimpleData name="field_5">17.81</SimpleData>
+		<SimpleData name="field_6">18.09</SimpleData>
+		<SimpleData name="field_7">18.37</SimpleData>
+		<SimpleData name="field_8">18.59</SimpleData>
+		<SimpleData name="field_9">40.6925</SimpleData>
+		<SimpleData name="field_10">74.1686</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>40.6925,74.1686</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Dhaka</SimpleData>
+		<SimpleData name="field_2">4.66</SimpleData>
+		<SimpleData name="field_3">6.62</SimpleData>
+		<SimpleData name="field_4">8.33</SimpleData>
+		<SimpleData name="field_5">10.28</SimpleData>
+		<SimpleData name="field_6">12.33</SimpleData>
+		<SimpleData name="field_7">14.73</SimpleData>
+		<SimpleData name="field_8">17.6</SimpleData>
+		<SimpleData name="field_9">23.7132301</SimpleData>
+		<SimpleData name="field_10">90.3995667</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.7132301,90.3995667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Karachi</SimpleData>
+		<SimpleData name="field_2">6.03</SimpleData>
+		<SimpleData name="field_3">7.15</SimpleData>
+		<SimpleData name="field_4">8.47</SimpleData>
+		<SimpleData name="field_5">10.03</SimpleData>
+		<SimpleData name="field_6">11.89</SimpleData>
+		<SimpleData name="field_7">14.08</SimpleData>
+		<SimpleData name="field_8">16.62</SimpleData>
+		<SimpleData name="field_9">24.9267101</SimpleData>
+		<SimpleData name="field_10">67.0343704</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>24.9267101,67.0343704</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Buenos Aires</SimpleData>
+		<SimpleData name="field_2">9.96</SimpleData>
+		<SimpleData name="field_3">10.51</SimpleData>
+		<SimpleData name="field_4">11.39</SimpleData>
+		<SimpleData name="field_5">12.41</SimpleData>
+		<SimpleData name="field_6">13.33</SimpleData>
+		<SimpleData name="field_7">14.25</SimpleData>
+		<SimpleData name="field_8">15.18</SimpleData>
+		<SimpleData name="field_9">-34.6085091</SimpleData>
+		<SimpleData name="field_10">-58.3734894</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-34.6085091,-58.3734894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Kolkata (Calcutta)</SimpleData>
+		<SimpleData name="field_2">9.95</SimpleData>
+		<SimpleData name="field_3">10.89</SimpleData>
+		<SimpleData name="field_4">11.92</SimpleData>
+		<SimpleData name="field_5">13.06</SimpleData>
+		<SimpleData name="field_6">13.7</SimpleData>
+		<SimpleData name="field_7">14.28</SimpleData>
+		<SimpleData name="field_8">14.86</SimpleData>
+		<SimpleData name="field_9">22.5705395</SimpleData>
+		<SimpleData name="field_10">88.3712387</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>22.5705395,88.3712387</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities">
+		<SimpleData name="field_1">Istanbul</SimpleData>
+		<SimpleData name="field_2">5.41</SimpleData>
+		<SimpleData name="field_3">6.55</SimpleData>
+		<SimpleData name="field_4">7.67</SimpleData>
+		<SimpleData name="field_5">8.74</SimpleData>
+		<SimpleData name="field_6">10.51</SimpleData>
+		<SimpleData name="field_7">12.7</SimpleData>
+		<SimpleData name="field_8">14.16</SimpleData>
+		<SimpleData name="field_9">41.06073</SimpleData>
+		<SimpleData name="field_10">28.9877701</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>41.06073,28.9877701</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
