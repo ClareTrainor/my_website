@@ -1,12 +1,14 @@
-// //initialize function called when the script loads
-// function initialize(){
-//     cities();
-//     addEvents();
-//     callback();
-// };
+//initialize function called when the script loads
+function initialize(){
+    // cities();
+    // addEvents();
+    // callback();
+    debugAjax();
+    debugCallback();
+};
 
-// //call the initialize function when the document has loaded
-// $(document).ready(initialize);
+//call the initialize function when the document has loaded
+$(document).ready(initialize);
 
 
 // //function to create a table with cities and their populations
@@ -107,6 +109,7 @@
         
 // 	});
 
+//     //If you click on the text then you get a pop-up message saying that it clicked me. 
 // 	function clickme(){
 
 // 		alert('Hey, you clicked me!');
@@ -120,39 +123,41 @@
 // //jQuery.getJSON() method
 // $.getJSON("data/MegaCities.geojson", callback);
 
+// //this function uses the parameter response and then gives a response on it 
+// //this function will only give a output if the console.log is in the response 
 // function callback(response) {
 //     console.log(response)
 // }
 
 
 //this is module 3 debug part of the lab
-//we needed to make the id myDIV 
 
 function debugCallback(response){
-    
-    $('#myDiv').append('GeoJSON data: ' + JSON.stringify(mydata));
-
-    console.log('hi');
+   
+//we needed to make an id called myDiv and add a hastag to it     
+    $('#myDiv').append('<br>GeoJSON data:<br>'  + JSON.stringify(response));
 };
  
-
+//here we are calling another function but with no parameter this time 
 function debugAjax(){
 
-    console.log('hi2');
-   
-    var mydata;
-
+//here ajax is calling our geojson
     $.ajax("data/MegaCities.geojson", {
         dataType: "json",
-        success: debugCallback(response)  
-        });
 
-    debugCallback(mydata);
+        //set this function to call the response above and we are using an anonymous function 
+        //this could take three parameters but we are only taking one, response 
+        success: function(response) {
 
+            //this is where the function calls the debugCallback function from above 
+            debugCallback(response);
 
-    $('#myDiv').append('<br>GeoJSON data:<br>' + JSON.stringify(mydata));
+            //this conole.log works because it has been able to call the information above through ajax
+            console.log(response);
+        }
+    });
+    //this is undefined becuase it hasn't completeled running through the functions before it has been printed out 
+    console.log(response);
+
 };
-
-
-
 
